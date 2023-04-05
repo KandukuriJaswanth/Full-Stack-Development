@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+  <title>Kandukuri </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</script>
+</head>
+<body>
+  <!--HTML--->
+  
+<div class="container">
+<h3>Tooltip Example</h3>
+<ul class="list-inline">
+<a target="_blank" href="https://www.w3schools.com/whatis/whatis_fullstack.asp#:~:text=A%20full%20stack%20web%20developer,ASP%2C%20Python%2C%20or%20Node" data-toggle="tooltip" title="Full Stack Development!">FSD</a>
+<li><a href="https://mdbootstrap.com/docs/standard/extended/registration/#!" data-toggle="tooltip"  title="Registration Form Bootstrap">RFB</a></li>
+</ul>
+</div>
+<script>
+  /*JavaScript */
+  
+$(document).ready(function(){
+$('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+</body>
+</html>
